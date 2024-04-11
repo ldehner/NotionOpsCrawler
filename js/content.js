@@ -1,12 +1,12 @@
 // content.js
 function getTitle() {
-  const title = document.querySelector('[id^="__bolt-textfield-input-"]');
+  const title = document.querySelector('[aria-label="Title Field"]');
   const value = title ? title.value : "Element not found";
   return value;
 }
 
 function getHours() {
-  const hours = document.getElementById("__bolt-Remaining-Work-input");
+  const hours = document.querySelector('[aria-label="Remaining Work"]');
   const value = hours ? hours.value : 0;
   return value;
 }
