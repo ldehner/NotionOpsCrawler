@@ -98,7 +98,4 @@ These elements are essential for tracking and managing development workflows eff
 
 ## Report an issue or make a feature request
 
-Go to [Github Issues](https://github.com/ldehner/NotionOpsCrawler/issues/new) and create an issue with one of the following labels
-- bug
-- question
-- feature request
+Go to [Github Issues](https://github.com/ldehner/NotionOpsCrawler/issues/new/choose) and create the corresponding issue
