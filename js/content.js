@@ -1,12 +1,20 @@
 // content.js
 function getTitle() {
-  const title = document.querySelector('[aria-label="Title Field"]');
+  var title = document.querySelector('[aria-label="Title Field"]');
+  if (title) {
+    return title.value;
+  }
+  title = document.querySelector('[aria-label="Title field"]');
   const value = title ? title.value : "Element not found";
   return value;
 }
 
 function getHours() {
-  const hours = document.querySelector('[aria-label="Remaining Work"]');
+  var hours = document.querySelector('[aria-label="Remaining Work"]');
+  if (hours) {
+    return hours.value;
+  }
+  hours = document.getElementById("__bolt-Remaining-Work-input");
   const value = hours ? hours.value : 0;
   return value;
 }
